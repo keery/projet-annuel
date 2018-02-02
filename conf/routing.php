@@ -7,6 +7,12 @@ return
 			'controller' => 'Main',
 			'action' => 'index'
 		],
+	'landing' => 
+		[
+			'path' => '/landing',
+			'controller' => 'Landing',
+			'action' => 'index'
+		],
 	'article' => 
 		[
 			'path' => '/article/edit/{id}',
