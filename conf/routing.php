@@ -29,6 +29,14 @@ return
 			'controller' => 'Main',
 			'action' => 'test'
 		],
+
+	'statistic' =>
+		[
+			'path' => '/statistic',
+			'controller' => 'Statistic',
+			'action' => 'index'
+		],
+			
 	'erreur' =>
 		[
 			'path' => '/erreur',
